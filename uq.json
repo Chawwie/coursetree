@@ -1,0 +1,1506 @@
+{
+  "nodes": [
+    {
+      "id": "COMP2048",
+      "name": "Theory of Computing (COMP2048)"
+    },
+    {
+      "id": "COMP7306",
+      "name": "Network & Operating Systems Principles (COMP7306)"
+    },
+    {
+      "id": "COMP4500",
+      "name": "Advanced Algorithms & Data Structures (COMP4500)"
+    },
+    {
+      "id": "COMP2303",
+      "name": "Network & Operating Systems Principles (COMP2303)"
+    },
+    {
+      "id": "COMP4501",
+      "name": "Advanced Human-Computer Interaction (COMP4501)"
+    },
+    {
+      "id": "COMP4000",
+      "name": "Special Topics in Computer Science 4A (COMP4000)"
+    },
+    {
+      "id": "COMP3505",
+      "name": "Social and Mobile Computing (COMP3505)"
+    },
+    {
+      "id": "COMP2506",
+      "name": "Human-Computer Interaction (COMP2506)"
+    },
+    {
+      "id": "COMP7010",
+      "name": "Special Topics in Computer Science 7F (COMP7010)"
+    },
+    {
+      "id": "COMP7009",
+      "name": "Special Topics in Computer Science 7E (COMP7009)"
+    },
+    {
+      "id": "COMP7008",
+      "name": "Special Topics in Computer Science 7D (COMP7008)"
+    },
+    {
+      "id": "COMP7007",
+      "name": "Special Topics in Computer Science 7C (COMP7007)"
+    },
+    {
+      "id": "COMP7001",
+      "name": "Special Topics in Computer Science 7B (COMP7001)"
+    },
+    {
+      "id": "COMP7000",
+      "name": "Special Topics in Computer Science 7A (COMP7000)"
+    },
+    {
+      "id": "COMP4005",
+      "name": "Special Topics in Computer Science 4F (COMP4005)"
+    },
+    {
+      "id": "COMP4004",
+      "name": "Special Topics in Computer Science 4E (COMP4004)"
+    },
+    {
+      "id": "DECO7220",
+      "name": "Graphic Design (DECO7220)"
+    },
+    {
+      "id": "DECO7140",
+      "name": "Introduction to Web Design (DECO7140)"
+    },
+    {
+      "id": "DECO7110",
+      "name": "Design Thinking (DECO7110)"
+    },
+    {
+      "id": "DECO2200",
+      "name": "Graphic Design (DECO2200)"
+    },
+    {
+      "id": "DECO1400",
+      "name": "Introduction to Web Design (DECO1400)"
+    },
+    {
+      "id": "DECO1100",
+      "name": "Design Thinking (DECO1100)"
+    },
+    {
+      "id": "CSSE7610",
+      "name": "Concurrency: Theory and Practice (CSSE7610)"
+    },
+    {
+      "id": "CSSE7530",
+      "name": "VLSI Circuits and Systems (CSSE7530)"
+    },
+    {
+      "id": "CSSE7420",
+      "name": "Wireless Sensor Networks (CSSE7420)"
+    },
+    {
+      "id": "CSSE7411",
+      "name": "Advanced Embedded Systems (CSSE7411)"
+    },
+    {
+      "id": "CSSE7100",
+      "name": "Reasoning about Programs (CSSE7100)"
+    },
+    {
+      "id": "CSSE7091",
+      "name": "Advanced Topics in Software Engineering B (CSSE7091)"
+    },
+    {
+      "id": "CSSE7090",
+      "name": "Advanced Topics in Software Engineering A (CSSE7090)"
+    },
+    {
+      "id": "CSSE7032",
+      "name": "Models of Software Systems (CSSE7032)"
+    },
+    {
+      "id": "CSSE7001",
+      "name": "The Software Process (CSSE7001)"
+    },
+    {
+      "id": "CSSE4603",
+      "name": "Models of Software Systems (CSSE4603)"
+    },
+    {
+      "id": "CSSE4091",
+      "name": "Special Topics in Software Engineering 4B (CSSE4091)"
+    },
+    {
+      "id": "CSSE4090",
+      "name": "Special Topics in Software Engineering 4A (CSSE4090)"
+    },
+    {
+      "id": "CSSE4020",
+      "name": "Wireless Sensor Networks (CSSE4020)"
+    },
+    {
+      "id": "CSSE4011",
+      "name": "Advanced Embedded Systems (CSSE4011)"
+    },
+    {
+      "id": "CSSE3100",
+      "name": "Reasoning About Programs (CSSE3100)"
+    },
+    {
+      "id": "CSSE3091",
+      "name": "Special Topics in Software Engineering 3B (CSSE3091)"
+    },
+    {
+      "id": "CSSE3090",
+      "name": "Special Topics in Software Engineering 3A (CSSE3090)"
+    },
+    {
+      "id": "CSSE3002",
+      "name": "The Software Process (CSSE3002)"
+    },
+    {
+      "id": "DECO7230",
+      "name": "Digital Prototyping (DECO7230)"
+    },
+    {
+      "id": "DECO2300",
+      "name": "Digital Prototyping (DECO2300)"
+    },
+    {
+      "id": "CSSE7640",
+      "name": "Formal Modelling and Verification (CSSE7640)"
+    },
+    {
+      "id": "CSSE7620",
+      "name": "Model-Driven Software Engineering (CSSE7620)"
+    },
+    {
+      "id": "CSSE7510",
+      "name": "Reconfigurable Embedded Systems - Concepts and Practice (CSSE7510)"
+    },
+    {
+      "id": "CSSE7410",
+      "name": "Digital System Design (CSSE7410)"
+    },
+    {
+      "id": "CSSE7301",
+      "name": "Embedded Systems Design & Interfacing (CSSE7301)"
+    },
+    {
+      "id": "CSSE7023",
+      "name": "Advanced Software Engineering (CSSE7023)"
+    },
+    {
+      "id": "CSSE4010",
+      "name": "Digital System Design (CSSE4010)"
+    },
+    {
+      "id": "CSSE3010",
+      "name": "Embedded Systems Design & Interfacing (CSSE3010)"
+    },
+    {
+      "id": "CSSE2002",
+      "name": "Programming in the Large (CSSE2002)"
+    },
+    {
+      "id": "CSSE7630",
+      "name": "Principles of Program Analysis (CSSE7630)"
+    },
+    {
+      "id": "CSSE7030",
+      "name": "Introduction to Software Engineering (CSSE7030)"
+    },
+    {
+      "id": "CSSE4630",
+      "name": "Principles of Program Analysis (CSSE4630)"
+    },
+    {
+      "id": "CSSE1001",
+      "name": "Introduction to Software Engineering (CSSE1001)"
+    },
+    {
+      "id": "CSSE7520",
+      "name": "Unmanned Aerial Vehicles - Avionics (CSSE7520)"
+    },
+    {
+      "id": "CSSE7500",
+      "name": "Modelling and Simulation (CSSE7500)"
+    },
+    {
+      "id": "DECO7862",
+      "name": "Masters Thesis (DECO7862)"
+    },
+    {
+      "id": "DECO7861",
+      "name": "Masters Thesis (DECO7861)"
+    },
+    {
+      "id": "DECO7860",
+      "name": "Masters Thesis (DECO7860)"
+    },
+    {
+      "id": "STAT7603",
+      "name": "Data Management & Statistical Computing (STAT7603)"
+    },
+    {
+      "id": "PXMH7000",
+      "name": "Comprehensive Systems of Mental Health Care (PXMH7000)"
+    },
+    {
+      "id": "PSYC4361",
+      "name": "Evolutionary & Comparative Perspectives in Psychology (PSYC4361)"
+    },
+    {
+      "id": "MIDW7303",
+      "name": "Complex Midwifery Care IV (MIDW7303)"
+    },
+    {
+      "id": "LAWS7814",
+      "name": "International & Comparative Copyright Law (LAWS7814)"
+    },
+    {
+      "id": "GEND2001",
+      "name": "Genders & Cultures: Comparative Perspectives on Race and Ethnicity (GEND2001)"
+    },
+    {
+      "id": "ECON7430",
+      "name": "Competition Policy and Regulation (ECON7430)"
+    },
+    {
+      "id": "COMU2040",
+      "name": "Language Awareness & Cross-Cultural Competence for the Global Workplace (COMU2040)"
+    },
+    {
+      "id": "COMS7201",
+      "name": "Computer Networks I (COMS7201)"
+    },
+    {
+      "id": "COMS7200",
+      "name": "Computer Networks II (COMS7200)"
+    },
+    {
+      "id": "COMS4200",
+      "name": "Computer Networks II (COMS4200)"
+    },
+    {
+      "id": "COMS3200",
+      "name": "Computer Networks I (COMS3200)"
+    },
+    {
+      "id": "VETS4010",
+      "name": "Companion Animal Clinical Studies (VETS4010)"
+    },
+    {
+      "id": "SWSP7277",
+      "name": "Key Skills and Competencies of Family Therapy Practice (SWSP7277)"
+    },
+    {
+      "id": "SWSP7175",
+      "name": "Practice Leadership in Complex Environments (SWSP7175)"
+    },
+    {
+      "id": "STAT7174",
+      "name": "Applications of Computational Statistics (STAT7174)"
+    },
+    {
+      "id": "SPAN3330",
+      "name": "Generos de composicion (SPAN3330)"
+    },
+    {
+      "id": "PSYC2063",
+      "name": "Psychological Approaches to Complex Problems (PSYC2063)"
+    },
+    {
+      "id": "PHYS7270",
+      "name": "Advanced Computational Physics (PHYS7270)"
+    },
+    {
+      "id": "PHYS4070",
+      "name": "Advanced Computational Physics (PHYS4070)"
+    },
+    {
+      "id": "NURS7703",
+      "name": "Complex Gastroenterology Nursing (NURS7703)"
+    },
+    {
+      "id": "NURS7402",
+      "name": "Complex Supportive Care in Chronic Disease Management and Palliative Care (NURS7402)"
+    },
+    {
+      "id": "MUSC4231",
+      "name": "Composition 4 (MUSC4231)"
+    },
+    {
+      "id": "MUSC3231",
+      "name": "Composition 3 (MUSC3231)"
+    },
+    {
+      "id": "MIDW7302",
+      "name": "Complex Midwifery Care III (MIDW7302)"
+    },
+    {
+      "id": "MGTS1968",
+      "name": "Enterprise Compliance Systems (MGTS1968D)"
+    },
+    {
+      "id": "MECH7650",
+      "name": "Regulation, Compliance & Safety (MECH7650)"
+    },
+    {
+      "id": "MATH7201",
+      "name": "Applications of Scientific Computing (MATH7201)"
+    },
+    {
+      "id": "MATH7049",
+      "name": "Computation in Financial Mathematics (MATH7049)"
+    },
+    {
+      "id": "MATH4090",
+      "name": "Computation in Financial Mathematics (MATH4090)"
+    },
+    {
+      "id": "MATH3401",
+      "name": "Complex Analysis (MATH3401)"
+    },
+    {
+      "id": "LAWS7939",
+      "name": "Comparative Constitutional Law (LAWS7939)"
+    },
+    {
+      "id": "LAWS7917",
+      "name": "Pacific Comparative Law (LAWS7917)"
+    },
+    {
+      "id": "LAWS7846",
+      "name": "International & Comparative Trademark Law (LAWS7846)"
+    },
+    {
+      "id": "LAWS7844",
+      "name": "International & Comparative Patent Law (LAWS7844)"
+    },
+    {
+      "id": "LAWS7168",
+      "name": "Comparative Law (LAWS7168)"
+    },
+    {
+      "id": "LAWS7135",
+      "name": "Comparative Native Title Law (LAWS7135)"
+    },
+    {
+      "id": "LAWS5168",
+      "name": "Comparative Law (LAWS5168)"
+    },
+    {
+      "id": "LAWS5135",
+      "name": "Comparative Native Title Law (LAWS5135)"
+    },
+    {
+      "id": "ENGG7302",
+      "name": "Advanced Computational Techniques in Engineering (ENGG7302)"
+    },
+    {
+      "id": "ECON3440",
+      "name": "Competition Policy and Regulation (ECON3440)"
+    },
+    {
+      "id": "ECON2110",
+      "name": "Political Economy & Comparative Systems (ECON2110)"
+    },
+    {
+      "id": "COMS7309",
+      "name": "Computational Techniques in Electromagnetics (COMS7309)"
+    },
+    {
+      "id": "AGRC7043",
+      "name": "Agrifood Strategies and Competitiveness (AGRC7043)"
+    },
+    {
+      "id": "AGRC3023",
+      "name": "Agrifood Strategy & Competitiveness (AGRC3023)"
+    },
+    {
+      "id": "VETS2031",
+      "name": "Comparative Structure and Function for Animal Biosciences (VETS2031)"
+    },
+    {
+      "id": "PXMH7105",
+      "name": "Advanced Therapy Skills: Working with Complex and Non-traditional Clients (PXMH7105)"
+    },
+    {
+      "id": "POLS2703",
+      "name": "Principles of Research: Social and Comparative Perspectives (POLS2703)"
+    },
+    {
+      "id": "PLAN7200",
+      "name": "International Field Course: Understanding Development Complexities (PLAN7200)"
+    },
+    {
+      "id": "PLAN3200",
+      "name": "International Field Course: Exploring Development Complexities (PLAN3200)"
+    },
+    {
+      "id": "PHYS7073",
+      "name": "Computational Physics (PHYS7073)"
+    },
+    {
+      "id": "PHYS3071",
+      "name": "Computational Physics (PHYS3071)"
+    },
+    {
+      "id": "MUSC7790",
+      "name": "Composing Music: techniques and strategies for creating music (MUSC7790)"
+    },
+    {
+      "id": "MMDS3301",
+      "name": "Affective Computing (MMDS3301)"
+    },
+    {
+      "id": "MIDW7301",
+      "name": "Complex Midwifery Care II (MIDW7301)"
+    },
+    {
+      "id": "MIDW7300",
+      "name": "Complex Midwifery Care I (MIDW7300)"
+    },
+    {
+      "id": "LAWS7970",
+      "name": "Comparative Criminal Law (LAWS7970)"
+    },
+    {
+      "id": "IBUS3306",
+      "name": "Managing International Legal Complexity (IBUS3306)"
+    },
+    {
+      "id": "ELEC7605",
+      "name": "Computer Vision & Pattern Recognition (ELEC7605)"
+    },
+    {
+      "id": "ELEC7463",
+      "name": "Image Processing and Computer Vision (ELEC7463)"
+    },
+    {
+      "id": "ELEC4630",
+      "name": "Image Processing and Computer Vision (ELEC4630)"
+    },
+    {
+      "id": "ECON8080",
+      "name": "Computational Methods in Economics (ECON8080)"
+    },
+    {
+      "id": "ECON6080",
+      "name": "Computational Methods in Economics (ECON6080)"
+    },
+    {
+      "id": "DATA7203",
+      "name": "Computational Models for Data Science (DATA7203)"
+    },
+    {
+      "id": "TIMS7302",
+      "name": "The Business of Complex Projects (TIMS7302)"
+    },
+    {
+      "id": "QBIO7004",
+      "name": "Computational Methods in Biology (QBIO7004)"
+    },
+    {
+      "id": "MIDW2102",
+      "name": "Health Complexities in Pregnancy (MIDW2102)"
+    },
+    {
+      "id": "MECH7480",
+      "name": "Computational Fluid Dynamics (MECH7480)"
+    },
+    {
+      "id": "MECH4480",
+      "name": "Computational Fluid Dynamics (MECH4480)"
+    },
+    {
+      "id": "MATH4201",
+      "name": "Applications of Scientific Computing (MATH4201)"
+    },
+    {
+      "id": "MATH3201",
+      "name": "Scientific Computing: Advanced Techniques and Applications (MATH3201)"
+    },
+    {
+      "id": "LAWS7981",
+      "name": "Complex Litigation (LAWS7981)"
+    },
+    {
+      "id": "LAWS7927",
+      "name": "Comparative Law Seminar B (LAWS7927)"
+    },
+    {
+      "id": "LAWS7926",
+      "name": "Comparative Law Seminar A (LAWS7926)"
+    },
+    {
+      "id": "LAWS7138",
+      "name": "Competition Law (LAWS7138)"
+    },
+    {
+      "id": "LAWS5138",
+      "name": "Competition Law (LAWS5138)"
+    },
+    {
+      "id": "CRIM2300",
+      "name": "Comparative Criminology (CRIM2300)"
+    },
+    {
+      "id": "BIOL3350",
+      "name": "Genetics and Evolution of Complex Traits: From Humans to Non-Model Organisms (BIOL3350)"
+    },
+    {
+      "id": "POLS7113",
+      "name": "Comparative Public Policy (POLS7113)"
+    },
+    {
+      "id": "MATH7306",
+      "name": "Quantum Algorithms and Computing (MATH7306)"
+    },
+    {
+      "id": "LAWS7881",
+      "name": "Competition Law (LAWS7881)"
+    },
+    {
+      "id": "DENT8072",
+      "name": "Research Completion & Report (DENT8072)"
+    },
+    {
+      "id": "AERO7300",
+      "name": "Aerospace Composites (AERO7300)"
+    },
+    {
+      "id": "AERO4300",
+      "name": "Aerospace Composites (AERO4300)"
+    },
+    {
+      "id": "OCTY3103",
+      "name": "Promoting Occ Performance & Participation for Individuals with Complex Issues (OCTY3103)"
+    },
+    {
+      "id": "CIVL7350",
+      "name": "Design of Composite Structures (CIVL7350)"
+    },
+    {
+      "id": "MIDW2108",
+      "name": "Foundations of Midwifery and Midwifery with Complex Pregnancy (MIDW2108)"
+    },
+    {
+      "id": "CIVL7360",
+      "name": "Computational Design and Digital Workflows (CIVL7360)"
+    },
+    {
+      "id": "INFS7208",
+      "name": "Cloud Computing (INFS7208)"
+    },
+    {
+      "id": "INFS3208",
+      "name": "Cloud Computing (INFS3208)"
+    },
+    {
+      "id": "DECO7280",
+      "name": "Design Computing Studio 2 - Testing & Evaluation (DECO7280)"
+    },
+    {
+      "id": "DECO7250",
+      "name": "Human-Computer Interaction (DECO7250)"
+    },
+    {
+      "id": "DECO2800",
+      "name": "Design Computing Studio 2 - Testing & Evaluation (DECO2800)"
+    },
+    {
+      "id": "DECO2500",
+      "name": "Human-Computer Interaction (DECO2500)"
+    },
+    {
+      "id": "CSSE7306",
+      "name": "Special Projects in Computer Systems and Software Engineering (CSSE7306)"
+    },
+    {
+      "id": "CSSE3006",
+      "name": "Special Projects in Computer Systems and Software Engineering (CSSE3006)"
+    },
+    {
+      "id": "CSSE1000",
+      "name": "Introduction to Computer Systems (CSSE1000)"
+    },
+    {
+      "id": "DECO7450",
+      "name": "Advanced Human-Computer Interaction (DECO7450)"
+    },
+    {
+      "id": "DECO7381",
+      "name": "Design Computing Studio 3 - Build (DECO7381)"
+    },
+    {
+      "id": "DECO7380",
+      "name": "Design Computing Studio 3 - Proposal (DECO7380)"
+    },
+    {
+      "id": "DECO7003",
+      "name": "Special Topics in Design Computing 7D (DECO7003)"
+    },
+    {
+      "id": "DECO7002",
+      "name": "Special Topics in Design Computing 7C (DECO7002)"
+    },
+    {
+      "id": "DECO7001",
+      "name": "Special Topics in Design Computing 7B (DECO7001)"
+    },
+    {
+      "id": "DECO7000",
+      "name": "Special Topics in Design Computing 7A (DECO7000)"
+    },
+    {
+      "id": "DECO6003",
+      "name": "Special Topics in Design Computing Honours D (DECO6003)"
+    },
+    {
+      "id": "DECO6002",
+      "name": "Special Topics in Design Computing Honours C (DECO6002)"
+    },
+    {
+      "id": "DECO6001",
+      "name": "Special Topics in Design Computing Honours B (DECO6001)"
+    },
+    {
+      "id": "DECO6000",
+      "name": "Special Topics in Design Computing Honours A (DECO6000)"
+    },
+    {
+      "id": "DECO4500",
+      "name": "Advanced Human-Computer Interaction (DECO4500)"
+    },
+    {
+      "id": "DECO4001",
+      "name": "Special Topics in Design Computing 4B (DECO4001)"
+    },
+    {
+      "id": "DECO4000",
+      "name": "Special Topics in Design Computing 4A (DECO4000)"
+    },
+    {
+      "id": "DECO3801",
+      "name": "Design Computing Studio 3 - Build (DECO3801)"
+    },
+    {
+      "id": "DECO3800",
+      "name": "Design Computing Studio 3 - Proposal (DECO3800)"
+    },
+    {
+      "id": "DECO3001",
+      "name": "Special Topics in Design Computing 3B (DECO3001)"
+    },
+    {
+      "id": "DECO3000",
+      "name": "Special Topics in Design Computing 3A (DECO3000)"
+    },
+    {
+      "id": "DECO2001",
+      "name": "Special Topics in Design Computing 2B (DECO2001)"
+    },
+    {
+      "id": "DECO2000",
+      "name": "Special Topics in Design Computing 2A (DECO2000)"
+    },
+    {
+      "id": "CSSE7201",
+      "name": "Introduction to Computer Systems (CSSE7201)"
+    },
+    {
+      "id": "CSSE7081",
+      "name": "Advanced Topics in Computer Systems B (CSSE7081)"
+    },
+    {
+      "id": "CSSE7080",
+      "name": "Advanced Topics in Computer Systems A (CSSE7080)"
+    },
+    {
+      "id": "CSSE4081",
+      "name": "Special Topics in Computer Systems 4B (CSSE4081)"
+    },
+    {
+      "id": "CSSE4080",
+      "name": "Special Topics in Computer Systems 4A (CSSE4080)"
+    },
+    {
+      "id": "CSSE3081",
+      "name": "Special Topics in Computer Systems 3B (CSSE3081)"
+    },
+    {
+      "id": "CSSE3080",
+      "name": "Special Topics in Computer Systems 3A (CSSE3080)"
+    },
+    {
+      "id": "CSSE2010",
+      "name": "Introduction to Computer Systems (CSSE2010)"
+    },
+    {
+      "id": "COSC7500",
+      "name": "Numerical Methods in Computational Science (COSC7500)"
+    },
+    {
+      "id": "COSC2500",
+      "name": "Numerical Methods in Computational Science (COSC2500)"
+    },
+    {
+      "id": "DECO7180",
+      "name": "Design Computing Studio 1 - Interactive Technology (DECO7180)"
+    },
+    {
+      "id": "DECO6802",
+      "name": "Design Computing Thesis (DECO6802)"
+    },
+    {
+      "id": "DECO6801",
+      "name": "Design Computing Thesis (DECO6801)"
+    },
+    {
+      "id": "DECO1800",
+      "name": "Design Computing Studio I - Interactive Technology (DECO1800)"
+    },
+    {
+      "id": "CSSE7231",
+      "name": "Computer Systems Principles and Programming (CSSE7231)"
+    },
+    {
+      "id": "CSSE7014",
+      "name": "Distributed Computing (CSSE7014)"
+    },
+    {
+      "id": "CSSE4004",
+      "name": "Distributed Computing (CSSE4004)"
+    },
+    {
+      "id": "CSSE2310",
+      "name": "Computer Systems Principles and Programming (CSSE2310)"
+    },
+    {
+      "id": "DECO7385",
+      "name": "Physical Computing & Interaction Design Studio (DECO7385)"
+    },
+    {
+      "id": "DECO3850",
+      "name": "Physical Computing & Interaction Design Studio (DECO3850)"
+    },
+    {
+      "id": "COSC7502",
+      "name": "High-Performance Computing (COSC7502)"
+    },
+    {
+      "id": "COSC3500",
+      "name": "High-Performance Computing (COSC3500)"
+    },
+    {
+      "id": "COSC3000",
+      "name": "Visualization, Computer Graphics & Data Analysis (COSC3000)"
+    },
+    {
+      "id": "DECO7350",
+      "name": "Social & Mobile Computing (DECO7350)"
+    },
+    {
+      "id": "DECO3500",
+      "name": "Social & Mobile Computing (DECO3500)"
+    },
+    {
+      "id": "COMP7711",
+      "name": "Cyber Incident Response (COMP7711)"
+    },
+    {
+      "id": "COMP7703",
+      "name": "Machine Learning (COMP7703)"
+    },
+    {
+      "id": "COMP7702",
+      "name": "Artificial Intelligence (COMP7702)"
+    },
+    {
+      "id": "COMP7510",
+      "name": "Programming Language Theory (COMP7510)"
+    },
+    {
+      "id": "COMP4702",
+      "name": "Machine Learning (COMP4702)"
+    },
+    {
+      "id": "COMP3880",
+      "name": "International Software Development (COMP3880)"
+    },
+    {
+      "id": "COMP3702",
+      "name": "Artificial Intelligence (COMP3702)"
+    },
+    {
+      "id": "COMP1900",
+      "name": "Information Access and Internet Skills (COMP1900)"
+    },
+    {
+      "id": "COMP7710",
+      "name": "Artificial Intelligence for Cyber Security (COMP7710)"
+    },
+    {
+      "id": "COMP7505",
+      "name": "Algorithms & Data Structures (COMP7505)"
+    },
+    {
+      "id": "COMP7308",
+      "name": "Operating Systems Architecture (COMP7308)"
+    },
+    {
+      "id": "COMP3710",
+      "name": "Pattern Recognition and Analysis (COMP3710)"
+    },
+    {
+      "id": "COMP3506",
+      "name": "Algorithms & Data Structures (COMP3506)"
+    },
+    {
+      "id": "COMP3400",
+      "name": "Functional & Logic Programming (COMP3400)"
+    },
+    {
+      "id": "COMP3320",
+      "name": "Ethical Hacking (COMP3320)"
+    },
+    {
+      "id": "COMP3301",
+      "name": "Operating Systems Architecture (COMP3301)"
+    },
+    {
+      "id": "COMP7500",
+      "name": "Advanced Algorithms & Data Structures (COMP7500)"
+    },
+    {
+      "id": "COMP4003",
+      "name": "Special Topics Computer Science 4D (COMP4003)"
+    },
+    {
+      "id": "COMP4002",
+      "name": "Special Topics in Computer Science 4C (COMP4002)"
+    },
+    {
+      "id": "COMP4001",
+      "name": "Special Topics in Computer Science 4B (COMP4001)"
+    },
+    {
+      "id": "COMP3001",
+      "name": "Special Topics in Computer Science 3B (COMP3001)"
+    },
+    {
+      "id": "COMP3000",
+      "name": "Special Topics in Computer Science 3A (COMP3000)"
+    },
+    {
+      "id": "COMP2001",
+      "name": "Special Topics in Computer Science 2B (COMP2001)"
+    },
+    {
+      "id": "COMP2000",
+      "name": "Special Topics in Computer Science 2A (COMP2000)"
+    },
+    {
+      "id": "COMP7402",
+      "name": "Compilers and Interpreters (COMP7402)"
+    },
+    {
+      "id": "COMP7024",
+      "name": "Conceptual Foundation of Computer Programming (COMP7024)"
+    },
+    {
+      "id": "COMP4403",
+      "name": "Compilers and Interpreters (COMP4403)"
+    },
+    {
+      "id": "COMP3401",
+      "name": "Compilers and Interpreters (COMP3401)"
+    },
+    {
+      "id": "COMP1024",
+      "name": "Conceptual Foundations of Computer Programming (COMP1024)"
+    },
+    {
+      "id": "COMP7802",
+      "name": "Computer Science Research Project (COMP7802)"
+    },
+    {
+      "id": "COMP7801",
+      "name": "Computer Science Research Project (COMP7801)"
+    },
+    {
+      "id": "COMP6804",
+      "name": "Computer Science Research Project (COMP6804)"
+    },
+    {
+      "id": "COMP6803",
+      "name": "Computer Science Research Project (COMP6803)"
+    },
+    {
+      "id": "COMP7840",
+      "name": "Computer Science Research Project (COMP7840)"
+    },
+    {
+      "id": "COMP7882",
+      "name": "Computer Science Research Project (COMP7882)"
+    },
+    {
+      "id": "COMP7881",
+      "name": "Computer Science Research Project (COMP7881)"
+    },
+    {
+      "id": "COMP7880",
+      "name": "Computer Science Research Project (COMP7880)"
+    },
+    {
+      "id": "COMP7862",
+      "name": "Computer Science Research Project (COMP7862)"
+    },
+    {
+      "id": "COMP7861",
+      "name": "Computer Science Research Project (COMP7861)"
+    },
+    {
+      "id": "COMP7860",
+      "name": "Computer Science Research Project (COMP7860)"
+    },
+    {
+      "id": "COMP6802",
+      "name": "Computer Science Honours Project (COMP6802)"
+    },
+    {
+      "id": "COMP6801",
+      "name": "Computer Science Honours Project (COMP6801)"
+    }
+  ],
+  "links": [
+    {
+      "source": "COMP2048",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "COMP7306",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "COMP4500",
+      "target": "COMP3506"
+    },
+    {
+      "source": "COMP2303",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "COMP2303",
+      "target": "CSSE1000"
+    },
+    {
+      "source": "COMP4501",
+      "target": "COMP2506"
+    },
+    {
+      "source": "COMP3505",
+      "target": "COMP2506"
+    },
+    {
+      "source": "COMP2506",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "DECO2200",
+      "target": "DECO1100"
+    },
+    {
+      "source": "CSSE7610",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "CSSE7610",
+      "target": "CSSE7023"
+    },
+    {
+      "source": "CSSE7530",
+      "target": "CSSE4010"
+    },
+    {
+      "source": "CSSE7530",
+      "target": "CSSE7410"
+    },
+    {
+      "source": "CSSE7420",
+      "target": "CSSE2310"
+    },
+    {
+      "source": "CSSE7411",
+      "target": "CSSE7301"
+    },
+    {
+      "source": "CSSE7100",
+      "target": "CSSE7023"
+    },
+    {
+      "source": "CSSE7001",
+      "target": "CSSE3002"
+    },
+    {
+      "source": "CSSE7001",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "CSSE7001",
+      "target": "DECO2800"
+    },
+    {
+      "source": "CSSE7001",
+      "target": "CSSE7001"
+    },
+    {
+      "source": "CSSE7001",
+      "target": "CSSE7023"
+    },
+    {
+      "source": "CSSE7001",
+      "target": "DECO7280"
+    },
+    {
+      "source": "CSSE4020",
+      "target": "CSSE2310"
+    },
+    {
+      "source": "CSSE4011",
+      "target": "CSSE3010"
+    },
+    {
+      "source": "CSSE3100",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "CSSE3002",
+      "target": "CSSE3002"
+    },
+    {
+      "source": "CSSE3002",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "CSSE3002",
+      "target": "DECO2800"
+    },
+    {
+      "source": "CSSE3002",
+      "target": "CSSE7001"
+    },
+    {
+      "source": "CSSE3002",
+      "target": "CSSE7023"
+    },
+    {
+      "source": "CSSE3002",
+      "target": "DECO7280"
+    },
+    {
+      "source": "DECO7230",
+      "target": "DECO7250"
+    },
+    {
+      "source": "DECO7230",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "DECO2300",
+      "target": "DECO2500"
+    },
+    {
+      "source": "DECO2300",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "CSSE7620",
+      "target": "CSSE3002"
+    },
+    {
+      "source": "CSSE7620",
+      "target": "CSSE7001"
+    },
+    {
+      "source": "CSSE7510",
+      "target": "CSSE4010"
+    },
+    {
+      "source": "CSSE7510",
+      "target": "CSSE7410"
+    },
+    {
+      "source": "CSSE7410",
+      "target": "CSSE7201"
+    },
+    {
+      "source": "CSSE7301",
+      "target": "CSSE7231"
+    },
+    {
+      "source": "CSSE7023",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "CSSE4010",
+      "target": "CSSE1000"
+    },
+    {
+      "source": "CSSE4010",
+      "target": "CSSE2010"
+    },
+    {
+      "source": "CSSE3010",
+      "target": "COMP2303"
+    },
+    {
+      "source": "CSSE3010",
+      "target": "CSSE2310"
+    },
+    {
+      "source": "CSSE2002",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "CSSE7630",
+      "target": "COMP4403"
+    },
+    {
+      "source": "CSSE7630",
+      "target": "COMP7402"
+    },
+    {
+      "source": "CSSE4630",
+      "target": "COMP4403"
+    },
+    {
+      "source": "CSSE7520",
+      "target": "CSSE3010"
+    },
+    {
+      "source": "CSSE7500",
+      "target": "CSSE2310"
+    },
+    {
+      "source": "COMS7201",
+      "target": "COMP7306"
+    },
+    {
+      "source": "COMS7201",
+      "target": "CSSE7231"
+    },
+    {
+      "source": "COMS7200",
+      "target": "COMS7201"
+    },
+    {
+      "source": "COMS4200",
+      "target": "COMS3200"
+    },
+    {
+      "source": "COMS3200",
+      "target": "COMP2303"
+    },
+    {
+      "source": "COMS3200",
+      "target": "CSSE2310"
+    },
+    {
+      "source": "DATA7203",
+      "target": "COMP7505"
+    },
+    {
+      "source": "MATH4201",
+      "target": "MATH3201"
+    },
+    {
+      "source": "MATH3201",
+      "target": "COSC2500"
+    },
+    {
+      "source": "INFS7208",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "INFS3208",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "DECO7280",
+      "target": "DECO7180"
+    },
+    {
+      "source": "DECO7280",
+      "target": "CSSE7023"
+    },
+    {
+      "source": "DECO7280",
+      "target": "DECO7250"
+    },
+    {
+      "source": "DECO7250",
+      "target": "DECO7140"
+    },
+    {
+      "source": "DECO7250",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "DECO2800",
+      "target": "DECO1800"
+    },
+    {
+      "source": "DECO2800",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "DECO2500",
+      "target": "DECO1400"
+    },
+    {
+      "source": "DECO2500",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "CSSE3006",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "DECO7450",
+      "target": "DECO7250"
+    },
+    {
+      "source": "DECO7381",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "DECO7381",
+      "target": "DECO7140"
+    },
+    {
+      "source": "DECO7381",
+      "target": "DECO7250"
+    },
+    {
+      "source": "DECO4500",
+      "target": "COMP2506"
+    },
+    {
+      "source": "DECO4500",
+      "target": "DECO2500"
+    },
+    {
+      "source": "DECO3801",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "DECO3800",
+      "target": "DECO1800"
+    },
+    {
+      "source": "DECO3800",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "DECO3800",
+      "target": "DECO2300"
+    },
+    {
+      "source": "COSC2500",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "DECO7180",
+      "target": "DECO7140"
+    },
+    {
+      "source": "DECO1800",
+      "target": "DECO1400"
+    },
+    {
+      "source": "CSSE7231",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "CSSE7231",
+      "target": "CSSE7201"
+    },
+    {
+      "source": "CSSE7014",
+      "target": "COMP7308"
+    },
+    {
+      "source": "CSSE7014",
+      "target": "COMS7201"
+    },
+    {
+      "source": "CSSE4004",
+      "target": "COMP3301"
+    },
+    {
+      "source": "CSSE4004",
+      "target": "COMS3200"
+    },
+    {
+      "source": "CSSE2310",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "CSSE2310",
+      "target": "CSSE1000"
+    },
+    {
+      "source": "CSSE2310",
+      "target": "CSSE2010"
+    },
+    {
+      "source": "DECO7385",
+      "target": "DECO7180"
+    },
+    {
+      "source": "DECO7385",
+      "target": "DECO7230"
+    },
+    {
+      "source": "DECO7385",
+      "target": "DECO7250"
+    },
+    {
+      "source": "DECO3850",
+      "target": "DECO2300"
+    },
+    {
+      "source": "DECO3850",
+      "target": "DECO2800"
+    },
+    {
+      "source": "COSC7502",
+      "target": "COSC2500"
+    },
+    {
+      "source": "COSC7502",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "COSC7502",
+      "target": "CSSE7023"
+    },
+    {
+      "source": "COSC3500",
+      "target": "COSC2500"
+    },
+    {
+      "source": "COSC3500",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "COSC3000",
+      "target": "COSC2500"
+    },
+    {
+      "source": "COSC3000",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "DECO7350",
+      "target": "DECO7250"
+    },
+    {
+      "source": "DECO3500",
+      "target": "COMP2506"
+    },
+    {
+      "source": "DECO3500",
+      "target": "DECO2500"
+    },
+    {
+      "source": "COMP7703",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "COMP7702",
+      "target": "CSSE7030"
+    },
+    {
+      "source": "COMP7510",
+      "target": "COMP4403"
+    },
+    {
+      "source": "COMP7510",
+      "target": "COMP7402"
+    },
+    {
+      "source": "COMP4702",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "COMP3880",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "COMP3702",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "COMP7505",
+      "target": "CSSE7023"
+    },
+    {
+      "source": "COMP7308",
+      "target": "COMP7306"
+    },
+    {
+      "source": "COMP7308",
+      "target": "CSSE7231"
+    },
+    {
+      "source": "COMP3710",
+      "target": "CSSE1001"
+    },
+    {
+      "source": "COMP3506",
+      "target": "CSSE2002"
+    },
+    {
+      "source": "COMP3506",
+      "target": "CSSE2010"
+    },
+    {
+      "source": "COMP3320",
+      "target": "CSSE2310"
+    },
+    {
+      "source": "COMP3320",
+      "target": "COMS3200"
+    },
+    {
+      "source": "COMP3301",
+      "target": "COMP2303"
+    },
+    {
+      "source": "COMP3301",
+      "target": "CSSE2310"
+    },
+    {
+      "source": "COMP7500",
+      "target": "COMP7505"
+    },
+    {
+      "source": "COMP7402",
+      "target": "COMP7505"
+    },
+    {
+      "source": "COMP4403",
+      "target": "COMP3506"
+    },
+    {
+      "source": "COMP3401",
+      "target": "COMP7505"
+    }
+  ]
+}
