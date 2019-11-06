@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <title>UQ Courses</title>
+</head>
+
+<style>
+    /* circle {
+        fill: cadetblue;
+    }
+
+    line {
+        stroke: #ccc;
+    }
+
+    text {
+        text-anchor: middle;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        fill: #666;
+        font-size: 16px;
+    } */
+</style>
+
+<body>
+    <div id="content">
+        <svg></svg>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script src="https://unpkg.com/d3-dag@0.2.3"></script>
+    <script>
+
+            // Configuration
+            var width = 3200;
+            var height = 1400;
+
+            var sources = {
+                "Grafo": ["grafo", d3.dagStratify()],
+                "X-Shape": ["ex", d3.dagStratify()],
+                "UQ": ["uq", d3.dagStratify()],
+                "Cain": ["cain", d3.dagStratify()],
+                "Zherebko": ["zherebko", d3.dagConnect().linkData(() => ({}))],
+            };
+            var layerings = {
+                "Simplex (slow)": d3.layeringSimplex(),
+                "Longest Path (fast)": d3.layeringLongestPath(),
+                "Coffman Graham (medium)": d3.layeringCoffmanGraham(),
+            };
+            var decrossings = {
+                "Optimal (slow)": d3.decrossOpt(),
+                "Two Layer Opt (medium)": d3.decrossTwoLayer().order(d3.twolayerOpt()),
+                "Two Layer (fast)": d3.decrossTwoLayer(),
+            }
+            var coords = {
+                "Vertical (slow)": d3.coordVert(),
+                "Minimum Curves (slow)": d3.coordMinCurve(),
+                "Greedy (medium)": d3.coordGreedy(),
+                "Center (fast)": d3.coordCenter(),
+            }
+
+            var layout = d3.sugiyama()
+                    .size([width, height])
+                    .layering(layerings["Simplex (slow)"])
+                    .decross(decrossings["Two Layer (fast)"])
+                    .coord(coords["Vertical (slow)"])
+
+
+            // Main
+            const [key, reader] = sources["UQ"];
+            d3.json(`${key}.json`, function(dag_data) {
+
+                var dag = reader(dag_data);
+    
+                // Rendering
+                const nodeRadius = 20;
+                const svgNode = 'svg';
+    
+                const svgSelection = d3.select(svgNode);
+                svgSelection.attr('width', width)
+                svgSelection.attr('height', height)
+                svgSelection.attr('viewbox', `${-nodeRadius} ${-nodeRadius} ${width + 2 * nodeRadius} ${height + 2 * nodeRadius}`)
+
+                const defs = svgSelection.append('defs'); // For gradients
+    
+                // Use computed layout
+                layout(dag);
+    
+                const steps = dag.size();
+                const interp = d3.interpolateRainbow;
+                const colorMap = {};
+                dag.each((node, i) => {
+                    colorMap[node.id] = interp(i / steps);
+                });
+    
+                // How to draw edges
+                const line = d3.line()
+                    .curve(d3.curveCatmullRom)
+                    .x(d => d.x)
+                    .y(d => d.y);
+    
+                // Plot edges
+                svgSelection.append('g')
+                    .selectAll('path')
+                    .data(dag.links())
+                    .enter()
+                    .append('path')
+                    .attr('d', ({ data }) => line(data.points))
+                    .attr('fill', 'none')
+                    .attr('stroke-width', 3)
+                    .attr('stroke', ({ source, target }) => {
+                        const gradId = `${source.id}-${target.id}`;
+                        const grad = defs.append('linearGradient')
+                            .attr('id', gradId)
+                            .attr('gradientUnits', 'userSpaceOnUse')
+                            .attr('x1', source.x)
+                            .attr('x2', target.x)
+                            .attr('y1', source.y)
+                            .attr('y2', target.y);
+                        grad.append('stop').attr('offset', '0%').attr('stop-color', colorMap[source.id]);
+                        grad.append('stop').attr('offset', '100%').attr('stop-color', colorMap[target.id]);
+                        return `url(#${gradId})`;
+                    });
+    
+                // Select nodes
+                const nodes = svgSelection.append('g')
+                    .selectAll('g')
+                    .data(dag.descendants())
+                    .enter()
+                    .append('g')
+                    .attr('transform', ({ x, y }) => `translate(${x}, ${y})`);
+    
+                // Plot node circles
+                nodes.append('circle')
+                    .attr('r', nodeRadius)
+                    .attr('fill', n => colorMap[n.id]);
+    
+                const arrow = d3.symbol().type(d3.symbolTriangle).size(nodeRadius * nodeRadius / 5.0);
+                svgSelection.append('g')
+                    .selectAll('path')
+                    .data(dag.links())
+                    .enter()
+                    .append('path')
+                    .attr('d', arrow)
+                    .attr('transform', ({
+                        source,
+                        target,
+                        data
+                    }) => {
+                        const [end, start] = data.points.reverse();
+                        // This sets the arrows the node radius (20) + a little bit (3) away from the node center, on the last line segment of the edge. This means that edges that only span ine level will work perfectly, but if the edge bends, this will be a little off.
+                        const dx = start.x - end.x;
+                        const dy = start.y - end.y;
+                        const scale = nodeRadius * 1.15 / Math.sqrt(dx * dx + dy * dy);
+                        // This is the angle of the last line segment
+                        const angle = Math.atan2(-dy, -dx) * 180 / Math.PI + 90;
+                        console.log(angle, dx, dy);
+                        return `translate(${end.x + dx * scale}, ${end.y + dy * scale}) rotate(${angle})`;
+                    })
+                    .attr('fill', ({ target }) => colorMap[target.id])
+                    .attr('stroke', 'white')
+                    .attr('stroke-width', 1.5);
+    
+                // Add text to nodes
+                nodes.append('text')
+                    // .text(d => d.data.name)
+                    .text(d => d.id)
+                    .attr('font-weight', 'bold')
+                    .attr('font-family', 'sans-serif')
+                    .attr('text-anchor', 'middle')
+                    .attr('alignment-baseline', 'middle')
+                    .attr('fill', 'black');
+
+            });
+
+    </script>
+    
+</body>
+
+</html>
